@@ -1,0 +1,132 @@
+@font-face {
+	/*AponaLohit.ttf*/
+    font-family: nikosh;
+    src: url(../../fonts/Nikosh.ttf);
+}
+
+@font-face {
+    font-family: aponaLohit;
+    src: url(../../fonts/AponaLohit.ttf);
+}
+
+@font-face {
+    font-family: hugs_kisses;
+    src: url(../../fonts/hugs_kisses_demo.ttf);
+}
+
+@font-face {
+    font-family: akaashnormal;
+    src: url(../../fonts/akaashnormal.ttf);
+}
+
+@font-face {
+    font-family: kalpurush;
+    src: url(../../fonts/kalpurush.ttf);
+}
+@font-face {
+    font-family: sagarnormal;
+    src: url(../../fonts/sagarnormal.ttf);
+}
+
+.main {
+	font-family: kalpurush;
+    /*transition: 0.3s;*/
+    width: 90%;
+    height: 100%;
+    border-radius: 1px;
+}
+
+/*.main:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+*/
+
+.t-header-logo{
+    margin-left: 15px; 
+    width: 125px; 
+    height: 122px; 
+    float: left; 
+}
+
+.t-header-logo img {
+    /*margin-left: 130px;*/
+    opacity: 0.6;
+    border-radius: 5px 5px 0 0;
+    width:90px;
+}
+
+.t-header-title{
+	margin-top: 20px;
+    margin-left: 130px;
+    width: 80%;
+    height: 50px;
+}
+
+.t-header-title span{
+    font-size: 220%;
+    font-family: kalpurush;
+}
+
+.t-header-body{
+    padding: 2px;
+}
+.t-header-body label{
+    font-size: 130%;
+}
+
+.container {
+    
+}
+
+.c-date{
+    margin-top: 10px; 
+    float: right; 
+}
+.c-date label{
+    font-size: 80%; 
+}
+
+.c-style-set{
+    font-family: hugs_kisses;
+}
+
+.c-title{
+    font-family: hugs_kisses;
+    margin-top: 50px;
+    float: center;
+}
+.c-title h1{
+    font-family: hugs_kisses;
+    font-size: 500%;
+}
+
+.c-body{
+    margin-top: 20px;
+}
+.c-body p{
+    font-family: hugs_kisses;
+    text-indent:50px;
+    line-height: 30px;
+    font-size: 200%;
+    float: left;
+    text-align: left;
+}
+
+.c-body span{
+    font-family: kalpurush;
+    font-style: bold;
+}
+
+.c-footer{
+
+}
+.c-sign{
+    position: fixed;
+    bottom: 0;
+    width: 89%;
+    margin-bottom: 50px;
+}
+.c-sign p{
+    font-size: 90%; 
+    float: right; 
+}
